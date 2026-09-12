@@ -1,61 +1,34 @@
-# [Traccar](https://www.traccar.org)
+<p align="center">
+  <img src="assets/portada.png" alt="DC-SGPS- Portada" width="100%">
+</p>
 
-## Overview
+<p align="center">
+  <img src="assets/logo.jpg" alt="DC-SGPS- Logo" width="150" height="150">
+</p>
 
-Traccar is a free, open source GPS tracking platform. This repository contains the Java-based back-end server, which supports more than 200 GPS protocols and 2000+ models of GPS tracking devices out of the box. Traccar works with any major SQL database and provides an easy to use [REST API](https://www.traccar.org/traccar-api/).
+<h1 align="center">DC-SGPS</h1>
 
-Traccar is built for anyone who needs to track vehicles, assets, or people: fleet operators, GPS tracking resellers running their own white-label platform, and individuals tracking their own devices. You can [self-host it for free](https://www.traccar.org/install-vps/), or use [official managed hosting](https://www.traccar.org/pricing/) if you'd rather not run a server yourself.
+<p align="center">
+  <b>Servidor GPS Personalizado y Autohospedado en Termux (Android)</b>
+</p>
 
-| Web Dashboard |
-|---|
-| ![Traccar web dashboard](.github/screenshot.png) |
+---
 
-Other parts of the Traccar platform:
+## 📍 Acerca del Proyecto
+**DC-SGPS** es una solución de rastreo GPS privada y optimizada, ejecutándose de forma persistente en entornos móviles Android mediante Termux, enlazada con dispositivos de telemetría y clientes móviles.
 
-- [Traccar web app](https://github.com/traccar/traccar-web) - the browser-based tracking dashboard
-- [Traccar Manager app](https://github.com/traccar/traccar-manager) - mobile app for viewing your tracked devices
+## 🚀 Acceso Rápido (QR)
+Escanea el siguiente código QR para acceder rápidamente a la interfaz del servidor o enlazar tus dispositivos:
 
-There is also a set of mobile apps for tracking mobile devices themselves:
+<p align="center">
+  <img src="assets/qr.jpg" alt="QR Code DC-SGPS" width="200">
+</p>
 
-- [Traccar Client app](https://github.com/traccar/traccar-client)
+## ⚙️ Características
+* Servidor de rastreo autohospedado con base de datos local.
+* Automatización mediante alias rápido (`sgps`).
+* Conectividad en tiempo real con clientes móviles y dispositivos de rastreo.
+* Control de versiones y despliegue integrado en GitHub.
 
-## Quick Start
-
-Run Traccar with a production-grade MySQL database using Docker Compose:
-
-```shell
-curl -o compose.yaml https://raw.githubusercontent.com/traccar/traccar/master/docker/compose/traccar-mysql.yaml
-docker compose up -d
-```
-
-Traccar will be available on port `8082`. See the [Docker documentation](https://www.traccar.org/docker/) for other configuration options, or [try the live demo](https://www.traccar.org/demo-server/) without installing anything.
-
-## Features
-
-Some of the available features include:
-
-- Real-time GPS tracking
-- Driver behaviour monitoring
-- Detailed and summary reports
-- Geofencing functionality
-- Alarms and notifications
-- Account and device management
-- Email and SMS support
-
-## Build
-
-Please read the [build from source documentation](https://www.traccar.org/build/) on the official website.
-
-## Community
-
-- [Forums](https://www.traccar.org/forums/)
-- [Documentation](https://www.traccar.org/documentation/)
-
-## Team
-
-- Anton Tananaev ([anton@traccar.org](mailto:anton@traccar.org))
-- Andrey Kunitsyn ([andrey@traccar.org](mailto:andrey@traccar.org))
-
-## License
-
-Apache License, Version 2.0. See [LICENSE.txt](https://github.com/traccar/traccar/blob/master/LICENSE.txt) for details.
+---
+<p align="center">Desarrollado con 🚀 por DC Laboratory.</p>
