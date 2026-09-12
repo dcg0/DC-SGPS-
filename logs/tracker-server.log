@@ -1,0 +1,95 @@
+nohup: ignoring input
+Database is up to date, no changesets to execute
+ Linux version: 4.14.199-27193134-abA035MUBS9CYG1 architecture: aarch64
+2026-09-12 08:28:09  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Termux version: 21.0.12
+2026-09-12 08:28:09  INFO: Memory limit heap: 890mb non-heap: 0mb
+2026-09-12 08:28:09  INFO: Character encoding: UTF-8
+2026-09-12 08:28:09  INFO: Version: 6.15.3
+2026-09-12 08:28:09  INFO: Starting server...
+2026-09-12 08:28:10  INFO: HikariPool-1 - Starting...
+2026-09-12 08:28:12  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./data/database user=SA
+2026-09-12 08:28:12  INFO: HikariPool-1 - Start completed.
+2026-09-12 08:28:13  INFO: Set default schema name to PUBLIC
+2026-09-12 08:28:14  INFO: Successfully acquired change log lock
+2026-09-12 08:28:14  INFO: Clearing database change log checksums for database h2
+2026-09-12 08:28:14  INFO: Successfully released change log lock
+2026-09-12 08:28:14  INFO: Command execution complete
+2026-09-12 08:28:16  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-12 08:28:18  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-12 08:28:18  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-12 08:28:18  INFO: UPDATE SUMMARY
+2026-09-12 08:28:18  INFO: Run:                          0
+2026-09-12 08:28:18  INFO: Previously run:              35
+2026-09-12 08:28:18  INFO: Filtered out:                 1
+2026-09-12 08:28:18  INFO: -------------------------------
+2026-09-12 08:28:18  INFO: Total change sets:           36
+2026-09-12 08:28:18  INFO: FILTERED CHANGE SETS SUMMARY
+2026-09-12 08:28:18  INFO: DBMS mismatch:                1
+2026-09-12 08:28:18  INFO: Update summary generated
+2026-09-12 08:28:18  INFO: Command execution complete
+2026-09-12 08:28:20  WARN: Failed to find a usable hardware address from the network interfaces; using random bytes: 80:a8:5c:b7:51:69:a5:25
+2026-09-12 08:28:23  INFO: jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 21.0.12
+2026-09-12 08:28:23  INFO: Session workerName=node0
+2026-09-12 08:28:23  INFO: Started oeje10s.ServletContextHandler@474619d9{ROOT,/,b=file:///data/data/com.termux/files/home/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@bb5f9d{STARTED}}
+2026-09-12 08:28:26  INFO: Started oeje10s.ServletContextHandler@474619d9{ROOT,/,b=file:///data/data/com.termux/files/home/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@bb5f9d{STARTED}}
+2026-09-12 08:28:26  INFO: Started oejs.ServerConnector@4b9d2cee{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-09-12 08:28:26  INFO: Started oejs.Server@337eeceb{STARTING}[12.1.12,sto=0] @2581ms
+2026-09-12 08:35:12  INFO: [T54913950] connected
+2026-09-12 08:35:13  INFO: [T54913950: osmand < 100.64.102.79] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 139\r\nHost: 100.73.125.83:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=91651662&lat=25.7978702&lon=-100.19533&timestamp=1789201584&accuracy=18.827999114990234&altitude=413.70001220703125&batt=83&charge=false
+2026-09-12 08:35:13  WARN: Unknown device - 91651662 (100.64.102.79)
+2026-09-12 08:35:13  INFO: [T54913950: osmand > 100.64.102.79] HTTP/1.1 400 Bad Request\r\ncontent-length: 0\r\n\r\n
+2026-09-12 08:35:18  INFO: [T54913950: osmand < 100.64.102.79] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 139\r\nHost: 100.73.125.83:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=91651662&lat=25.7978702&lon=-100.19533&timestamp=1789201584&accuracy=18.827999114990234&altitude=413.70001220703125&batt=83&charge=false
+2026-09-12 08:35:18  WARN: Unknown device - 91651662 (100.64.102.79)
+2026-09-12 08:35:18  INFO: [T54913950: osmand > 100.64.102.79] HTTP/1.1 400 Bad Request\r\ncontent-length: 0\r\n\r\n
+2026-09-12 08:35:26  INFO: [T54913950: osmand < 100.64.102.79] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 180\r\nHost: 100.73.125.83:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=91651662&lat=25.797943333333333&lon=-100.19527000000001&timestamp=1789202126&accuracy=6.400000095367432&altitude=456.2&speed=0.94&bearing=298.70001220703125&batt=82&charge=false
+2026-09-12 08:35:26  WARN: Unknown device - 91651662 (100.64.102.79)
+2026-09-12 08:35:26  INFO: [T54913950: osmand > 100.64.102.79] HTTP/1.1 400 Bad Request\r\ncontent-length: 0\r\n\r\n
+2026-09-12 08:35:28  INFO: [T54913950: osmand < 100.64.102.79] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 139\r\nHost: 100.73.125.83:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=91651662&lat=25.7978702&lon=-100.19533&timestamp=1789201584&accuracy=18.827999114990234&altitude=413.70001220703125&batt=83&charge=false
+2026-09-12 08:35:28  WARN: Unknown device - 91651662 (100.64.102.79)
+2026-09-12 08:35:28  INFO: [T54913950: osmand > 100.64.102.79] HTTP/1.1 400 Bad Request\r\ncontent-length: 0\r\n\r\n
+2026-09-12 08:35:48  INFO: [T54913950: osmand < 100.64.102.79] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 139\r\nHost: 100.73.125.83:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=91651662&lat=25.7978702&lon=-100.19533&timestamp=1789201584&accuracy=18.827999114990234&altitude=413.70001220703125&batt=83&charge=false
+2026-09-12 08:35:48  WARN: Unknown device - 91651662 (100.64.102.79)
+2026-09-12 08:35:48  INFO: [T54913950: osmand > 100.64.102.79] HTTP/1.1 400 Bad Request\r\ncontent-length: 0\r\n\r\n
+2026-09-12 08:36:28  INFO: [T54913950: osmand < 100.64.102.79] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 139\r\nHost: 100.73.125.83:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=91651662&lat=25.7978702&lon=-100.19533&timestamp=1789201584&accuracy=18.827999114990234&altitude=413.70001220703125&batt=83&charge=false
+2026-09-12 08:36:28  WARN: Unknown device - 91651662 (100.64.102.79)
+2026-09-12 08:36:28  INFO: [T54913950: osmand > 100.64.102.79] HTTP/1.1 400 Bad Request\r\ncontent-length: 0\r\n\r\n
+2026-09-12 08:37:02  INFO: Stopping server...
+2026-09-12 08:37:06  INFO: Operating system name: Linux version: 4.14.199-27193134-abA035MUBS9CYG1 architecture: aarch64
+2026-09-12 08:37:06  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Termux version: 21.0.12
+2026-09-12 08:37:06  INFO: Memory limit heap: 890mb non-heap: 0mb
+2026-09-12 08:37:06  INFO: Character encoding: UTF-8
+2026-09-12 08:37:06  INFO: Version: 6.15.3
+2026-09-12 08:37:06  INFO: Starting server...
+2026-09-12 08:37:07  INFO: HikariPool-1 - Starting...
+2026-09-12 08:37:09  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./data/database user=SA
+2026-09-12 08:37:09  INFO: HikariPool-1 - Start completed.
+2026-09-12 08:37:09  INFO: Set default schema name to PUBLIC
+2026-09-12 08:37:10  INFO: Successfully acquired change log lock
+2026-09-12 08:37:11  INFO: Clearing database change log checksums for database h2
+2026-09-12 08:37:11  INFO: Successfully released change log lock
+2026-09-12 08:37:11  INFO: Command execution complete
+2026-09-12 08:37:13  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-12 08:37:15  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-12 08:37:15  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-12 08:37:15  INFO: UPDATE SUMMARY
+2026-09-12 08:37:15  INFO: Run:                          0
+2026-09-12 08:37:15  INFO: Previously run:              35
+2026-09-12 08:37:15  INFO: Filtered out:                 1
+2026-09-12 08:37:15  INFO: -------------------------------
+2026-09-12 08:37:15  INFO: Total change sets:           36
+2026-09-12 08:37:15  INFO: FILTERED CHANGE SETS SUMMARY
+2026-09-12 08:37:15  INFO: DBMS mismatch:                1
+2026-09-12 08:37:15  INFO: Update summary generated
+2026-09-12 08:37:15  INFO: Command execution complete
+2026-09-12 08:37:17  WARN: Failed to find a usable hardware address from the network interfaces; using random bytes: ab:ef:72:32:90:ce:7c:47
+2026-09-12 08:37:20  INFO: jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 21.0.12
+2026-09-12 08:37:21  INFO: Session workerName=node0
+2026-09-12 08:37:21  INFO: Started oeje10s.ServletContextHandler@229cb4d8{ROOT,/,b=file:///data/data/com.termux/files/home/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@76e9eed8{STARTED}}
+2026-09-12 08:37:23  INFO: Started oeje10s.ServletContextHandler@229cb4d8{ROOT,/,b=file:///data/data/com.termux/files/home/traccar/web/,a=AVAILABLE,h=oeje10s.SessionHandler@76e9eed8{STARTED}}
+2026-09-12 08:37:23  INFO: Started oejs.ServerConnector@92b1bda{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-09-12 08:37:23  INFO: Started oejs.Server@58690f5e{STARTING}[12.1.12,sto=0] @2676ms
+2026-09-12 08:37:49  INFO: [Tc700663d] connected
+2026-09-12 08:37:49  INFO: [Tc700663d: osmand < 100.64.102.79] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 139\r\nHost: 100.73.125.83:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=91651662&lat=25.7978702&lon=-100.19533&timestamp=1789201584&accuracy=18.827999114990234&altitude=413.70001220703125&batt=83&charge=false
+2026-09-12 08:37:50  WARN: Unknown device - 91651662 (100.64.102.79)
+2026-09-12 08:37:50  INFO: [Tc700663d: osmand > 100.64.102.79] HTTP/1.1 400 Bad Request\r\ncontent-length: 0\r\n\r\n
+2026-09-12 08:38:15  INFO: Stopping server...
