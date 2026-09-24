@@ -1,3 +1,9 @@
+
+<p align="center">
+  <a href="https://github.com/dcg0/DC-SGPS-/actions/workflows/security.yml"><img src="https://github.com/dcg0/DC-SGPS-/actions/workflows/security.yml/badge.svg" alt="Security checks"></a>
+  <a href="https://github.com/dcg0/DC-SGPS-/security"><img src="https://img.shields.io/badge/security-policy-available-176b46" alt="Security policy available"></a>
+</p>
+
 <p align="center">
   <img src="assets/portada.png" alt="DC-SGPS- Portada" width="100%">
 </p>
