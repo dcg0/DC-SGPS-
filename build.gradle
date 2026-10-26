@@ -45,7 +45,7 @@ enforce {
 ext {
     guiceVersion = "7.0.0"
     jettyVersion = "12.1.12"
-    jerseyVersion = "4.0.2"
+    jerseyVersion = "4.0.3"
     nettyVersion = "4.2.17.Final"
     protobufVersion = "4.36.0"
     jxlsVersion = "2.14.0" // version 3 has breaking changes
